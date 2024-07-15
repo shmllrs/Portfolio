@@ -1,0 +1,83 @@
+@font-face {
+    font-family: myFont;
+    src: url(header.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F6F5FA;
+}
+
+header {
+    background-color: #000;
+    padding: 35px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px; /* Increase top and bottom padding to lower the section */
+    gap: 120px; /* Space between text and logo */
+}
+
+.text-section {
+    max-width: 60%;
+    text-align: center; /* Center the text within the text section */
+}
+
+.logo {
+    max-width: 550px; /* Adjust size as needed */
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.name {
+    font-size: 7rem;
+    line-height: 0.9;
+    margin: 0;
+    font-family: myFont;
+    text-align: center; /* Center the name */
+}
+
+.skills {
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-align: center; /* Center the skills */
+}
+
+.socials {
+    margin-top: 20px;
+    text-align: center; /* Center the social icons container */
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
